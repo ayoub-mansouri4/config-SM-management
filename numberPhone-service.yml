@@ -1,0 +1,16 @@
+server:
+  port: 8082
+  
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/numberPhone_db
+    username: root
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+    properties:
+      hibernate: org.hibernate.dialect.MariaDBDialect
+      format_sql: true
