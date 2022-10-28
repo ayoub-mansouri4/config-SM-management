@@ -1,0 +1,17 @@
+server:
+  port: 9001
+
+spring:
+  application:
+    name: eureka-server
+  cloud:
+    config:
+      import-check:
+        enabled: false
+
+
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+
