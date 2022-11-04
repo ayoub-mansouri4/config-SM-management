@@ -4,7 +4,7 @@ server:
 
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/email_db
+    url: jdbc:mysql://${DB_SERVER}/${MYSQL_DB1}
     username: ${MYSQL_USER}
     password: ${MYSQL_PASSWORD}
   jpa:
